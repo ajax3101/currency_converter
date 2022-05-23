@@ -1,5 +1,6 @@
 # Конвертер валют на Django
 [![Python Version](https://img.shields.io/badge/python-3.10-brightgreen.svg)](https://python.org)
+[![Django Version](https://img.shields.io/badge/django-4.0-brightgreen.svg)](https://djangoproject.com)
 
 Пишем сайт для конвертации валют на Python фреймворке Django, Bootstrap, и отправкой запросов к API с помощью библиотеки requests.
 
@@ -12,6 +13,7 @@ $ cd currency_converter/
 ```
 Install the requirements:
 ```bash
+$ python -m venv venv 
 $ pip install -r requirements.txt
 $ cd app/
 $ ./manage.py migrate
